@@ -51,7 +51,7 @@
       "start1": "next dev",
       "build": "next build",
       "export": "next export -o ../../build/web",
-      "start": "next start-p $PORT",
+      "start": "next start",
       "test": "jest --passWithNoTests",
       "deploy:ar": "yarn export && arweave deploy-dir  ../../build/web --key-file ",
       "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/metaplex-foundation/metaplex -t true",
